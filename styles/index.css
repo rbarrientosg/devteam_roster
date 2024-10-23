@@ -34,7 +34,6 @@ a > div:nth-child(1) {
   height: 220px;
   border-radius: 0 0 2rem 2rem;
   background-color: #fde2c9;
-  /* background-color: #d1cee8; */
 }
 
 a > div:nth-child(1) > p {
