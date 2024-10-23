@@ -16,11 +16,46 @@ section:nth-child(1) > p {
 section:nth-child(2) {
   align-items: stretch;
   display: grid;
-  grid-gap: 12px;
+  grid-gap: 1rem;
   grid-template-columns: 1fr 1fr;
-  margin: 8px 0;
+  margin: 1rem 6rem;
 }
 
-main > section:nth-child(2) > article {
-  box-sizing: border-box;
+section:nth-child(2) > article {
+  border-radius: 2rem;
+  background-color: #f8f1f6;
+  overflow: hidden;
+}
+
+a > div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+  border-radius: 0 0 2rem 2rem;
+  background-color: #fde2c9;
+  /* background-color: #d1cee8; */
+}
+
+a > div:nth-child(1) > p {
+  font-size: 3rem;
+  color: #1c1b1d;
+  font-weight: bold;
+}
+
+a > div:nth-child(2) { 
+  display: flex;
+  flex-direction: column; 
+  padding: 1.5rem;
+  gap: .5rem;
+}
+
+a > div:nth-child(2) > p:nth-child(1) {  
+  font-size: 1.5rem;
+  color: #1c1b1d;
+}
+
+a > div:nth-child(2) > p:nth-child(2) {  
+  font-size: 1.2rem;
+  color: #555555;
 }
