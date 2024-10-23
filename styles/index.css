@@ -2,7 +2,18 @@ main {
   justify-content: space-between;
 }
 
-main > section:nth-child(2) {
+section:nth-child(1) > h1 {
+  font-size: 4rem;
+  color: #1c1b1d;
+  font-weight: bold;
+}
+
+section:nth-child(1) > p {
+  font-size: 2rem;
+  color: #555555;
+}
+
+section:nth-child(2) {
   align-items: stretch;
   display: grid;
   grid-gap: 12px;
