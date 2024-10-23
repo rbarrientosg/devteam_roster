@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  user-select: none;
 }
 
 body {
@@ -9,12 +10,13 @@ body {
   justify-content: center;
   width: 100vw;
   height: 100vh;
+  background-color: #fefbff;
 }
 
 main {
   display: flex;
   width: 1600px;
-  height: 800px;
+  height: 860px;
   flex-direction: column;
 }
 
